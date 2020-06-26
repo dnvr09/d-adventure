@@ -1,0 +1,16 @@
+#skill_cast_animate{
+	position: absolute;
+	width: 160%;
+	left:  -35%;
+	z-index: 9;
+	visibility: hidden;
+}
+#skill_cast{
+	position: absolute;
+	width: ;
+	height: ;
+	left: ;
+	top: ;
+	z-index: ;
+	visibility: hidden;
+}
