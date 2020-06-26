@@ -1,0 +1,80 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+.container{
+	display: flex;
+	justify-content: center;
+}
+.map{
+	position: absolute;
+	width: 490px;
+	height: 650px;
+	background-image:url('../../maps background/map7_background.png');
+	top: 50px;
+	display: flex;
+	justify-content: center;
+}
+.avatar_box{
+	position: absolute;
+	width: 57px;
+	height: 96px;
+	bottom: 600px;
+	left: 220px;
+	transition: .15s;
+	z-index: 1;
+}
+.avatar{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+#back{
+	visibility: hidden;
+}
+#front{
+	visibility:	visible;
+}
+#side1{
+	visibility: hidden;
+}
+#side2{
+	visibility: hidden;
+}
+.buttons{
+	visibility: hidden;
+}
+#river{
+	position: absolute;
+	left: 0px;
+}
+#tree1{
+	position: absolute;
+	left: 0px;
+	top: 175px;
+	z-index: 4;
+}
+#tree2{
+	position: absolute;
+	right: 10px;
+	top: 100px;
+	z-index: 2;
+}
+#river_portal_right{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	z-index: 0;
+}
+#river_portal_bottom{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	z-index: 0;
+}
+#river_bush_overlay{
+	position: absolute;
+	left: 0px;
+	bottom: 120px;
+}

@@ -1,0 +1,63 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+.container{
+	display: flex;
+	justify-content: center;
+}
+.map{
+	position: absolute;
+	width: 490px;
+	height: 650px;
+	background-image:url('../../maps background/map8_background.png');
+	top: 50px;
+	display: flex;
+	justify-content: center;
+}
+.avatar_box{
+	position: absolute;
+	width: 57px;
+	height: 50px;
+	bottom: 40px;
+	left: 440px;
+	transition: .15s;
+	z-index: 1;
+}
+.avatar{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+#back{
+	visibility: hidden;
+}
+#front{
+	visibility: hidden;
+}
+#side1{
+	visibility: hidden;
+}
+#side2{
+	visibility: visible;
+}
+.buttons{
+	visibility: hidden;
+}
+#river{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+#bushes{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+}
+#bushes_shadow{
+	position: absolute;
+	bottom: 60px;
+	left: 0px;
+}

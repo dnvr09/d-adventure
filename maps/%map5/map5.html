@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="shortcut icon" type="image/png" href="../../favicon.png">
+		<link rel="stylesheet" type="text/css" href="map5.css">
+		<link rel="stylesheet" type="text/css" href="../../notice_text_design.css">
+		<link rel="stylesheet" type="text/css" href="../../skill_design.css">
+		<meta charset="utf-8">
+		<script src="map5.js"></script>
+		<script src="../../keyboard_control.js"></script>
+		<title>Grass Field</title>
+	</head>
+	
+	<body>
+		<div class="container">
+			<div class="map">
+				<div class="avatar_box" id="avatar_box">
+					<div><img id="back" class="avatar" src="../../character/avatar/avatar_active/avatar_back.png"></div>
+					<div><img id="front" class="avatar" src="../../character/avatar/avatar_active/avatar_front.png"></div>
+					<div><img id="side1" class="avatar" src="../../character/avatar/avatar_active/avatar_side1.png"></div>
+					<div><img id="side2" class="avatar" src="../../character/avatar/avatar_active/avatar_side2.png"></div>
+					<div>
+						<img id="skill_cast_animate" class="avatar" src="">
+						<img id="skill_cast" class="avatar" src="">
+					</div>
+					<div class="button">
+						<input class="buttons" type="button" onkeypress="arrow_up()">
+						<input class="buttons" type="button" onkeypress="arrow_down()">
+						<input class="buttons" type="button" onkeypress="arrow_right()">
+						<input class="buttons" type="button" onkeypress="arrow_left()">
+					</div>
+				</div>									
+				<!-----DESIGN OBJECT----->		
+				
+				<!--SEND COMMAND TO KEYBOARD_CONTROL-->
+				<input id="cannot_use_skill" type="text" value=" ">		
+			</div>
+		</div>
+	</body>
+</html>

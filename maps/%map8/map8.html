@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="shortcut icon" type="image/png" href="../../favicon.png">
+		<link rel="stylesheet" type="text/css" href="map8.css">
+		<link rel="stylesheet" type="text/css" href="../../notice_text_design.css">
+		<link rel="stylesheet" type="text/css" href="../../skill_design.css">
+		<meta charset="utf-8">
+		<script src="map8.js"></script>
+		<script src="../../keyboard_control.js"></script>
+		<title>Grass Field</title>
+	</head>
+	
+	<body>
+		<div class="container">
+			<div class="map">
+				<div class="avatar_box" id="avatar_box">
+					<div><img id="back" class="avatar" src="../../character/avatar_swimming/avatar_swimming_active/avatar_swimming_back.png"></div>
+					<div><img id="front" class="avatar" src="../../character/avatar_swimming/avatar_swimming_active/avatar_swimming_front.png"></div>
+					<div><img id="side1" class="avatar" src="../../character/avatar_swimming/avatar_swimming_active/avatar_swimming_side1.png"></div>
+					<div><img id="side2" class="avatar" src="../../character/avatar_swimming/avatar_swimming_active/avatar_swimming_side2.png"></div>
+					<div>
+						<img id="skill_cast_animate" class="avatar" src="">
+						<img id="skill_cast" class="avatar" src="">
+					</div>
+					<div class="button">
+						<input class="buttons" type="button" onkeypress="arrow_up()">
+						<input class="buttons" type="button" onkeypress="arrow_down()">
+						<input class="buttons" type="button" onkeypress="arrow_right()">
+						<input class="buttons" type="button" onkeypress="arrow_left()">
+					</div>
+				</div>
+				
+					
+				<!-----DESIGN OBJECT----->
+				<div><img id="river" src="map8 images/river.gif"></div>
+				<div><img id="bushes" src="map8 images/bushes.png"></div>
+				<div><img id="bushes_shadow" src="map8 images/bushes_shadow.png"></div>
+
+				<!--SEND COMMAND TO KEYBOARD_CONTROL-->
+				<input id="cannot_use_skill" type="text" value="1">				
+			</div>	
+		</div>
+	</body>
+</html>

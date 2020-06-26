@@ -1,0 +1,71 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+.container{
+	display: flex;
+	justify-content: center;
+}
+.map{
+	position: absolute;
+	width: 490px;
+	height: 650px;
+	background-image:url('../../maps background/map4_house_inside_background.png');
+	top: 50px;
+	display: flex;
+	justify-content: center;
+}
+#night_time{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 4;
+	visibility: hidden;
+	opacity: .85;
+	transition: 1s;
+}
+.avatar_box{
+	position: absolute;
+	width: 100px;
+	height: 170px;
+	bottom: 15px;
+	left: 230px;
+	transition: .15s;
+	z-index: 2;
+}
+.avatar{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+#zzz_sleep_effect{
+	position: absolute;
+	top: -90px;
+	left: 200px;
+	width: 250px;
+	opacity: 0;
+	z-index: 105;
+	transition: .5s;
+}
+#back{
+	visibility: visible;
+}
+#front{
+	visibility: hidden;
+}
+#side1{
+	visibility: hidden;
+}
+#side2{
+	visibility: hidden;
+}
+.buttons{
+	visibility: hidden;
+}
+#blanket{
+	position: absolute;
+	right: 18px;
+	top: 98px;
+	z-index: 1;
+}

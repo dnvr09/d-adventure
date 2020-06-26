@@ -1,0 +1,47 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+.container{
+	display: flex;
+	justify-content: center;
+}
+.map{
+	position: absolute;
+	width: 490px;
+	height: 650px;
+	background-image:url('../../maps background/map5_background.png');
+	top: 50px;
+	display: flex;
+	justify-content: center;
+}
+.avatar_box{
+	position: absolute;
+	width: 57px;
+	height: 96px;
+	bottom: 600px;
+	left: 220px;
+	transition: .15s;
+	z-index: 10;
+}
+.avatar{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+#back{
+	visibility: hidden;
+}
+#front{
+	visibility: visible;
+}
+#side1{
+	visibility: hidden;
+}
+#side2{
+	visibility: hidden;
+}
+.buttons{
+	visibility: hidden;
+}
